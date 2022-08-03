@@ -1,55 +1,56 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import {TbCSharp} from "react-icons/tb";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
+  DiJava,
   DiPython,
+  DiReact,
+  DiMysql,
+  DiMsqlServer,
   DiGit,
+  DiAndroid,
 } from "react-icons/di";
 import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+  SiSelenium,
+  SiSpring,
+  SiDotnet
 } from "react-icons/si";
 
-function Techstack() {
+function Handsonstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbCSharp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMsqlServer />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAndroid />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpring />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSelenium />
       </Col>
     </Row>
   );
 }
 
-export default Techstack;
+export default Handsonstack;

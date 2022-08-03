@@ -1,51 +1,54 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+import Handsonstack from "./Handsonstack";
+import Timeline from "./Timeline";
+import EducationCard_UCDavis from "./EducationCard_UCDavis";
+import EducationCard_FJU from "./EducationCard_FJU";
+import CertificationCard_AWS from "./CertificateCard_AWS";
+import CertificationCard_Azure from "./CertificateCard_Azure";
 
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
+      
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
-            </h1>
-            <Aboutcard />
+        
+        <h1>About <strong className="yellow">'ME'</strong></h1>
+        <br/>
+        <h1 className="project-heading" style={{alignItems: 'left'}}>
+          Education / Certificates
+        </h1>
+        <br/>
+        
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col xs={10} md={3}>
+            <EducationCard_UCDavis/>
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+          <Col xs={10} md={3}>
+            <EducationCard_FJU/>
+          </Col>
+          <Col xs={10} md={3}>
+            <CertificationCard_AWS/>
+          </Col>
+          <Col xs={10} md={3}>
+            <CertificationCard_Azure/>
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        
+
+        <h1 className="project-heading" >
+          Hands-on Experiences
         </h1>
-
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+        <br/>
+        <Handsonstack />
+        {/* <Toolstack /> */}
+        
+        {/* <Github /> */}
+        <h1 className="project-heading" >
+          Working Experiences
         </h1>
-        <Toolstack />
-
-        <Github />
+        <br/>
+        <Timeline />
       </Container>
     </Container>
   );

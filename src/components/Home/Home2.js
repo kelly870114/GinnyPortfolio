@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,40 +16,56 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
+              I'm currently a master student in the 
+              <b className="home-about-body-green"> Computer Science </b>
+              department at 
+              <b className="home-about-body-green"> University of California, Davis. </b>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+              My field of Interest's are
+              <b> Full Stack Development </b> and
+                areas related to{" "}
+              <b>
+                Cloud Computing.
+              </b>
+              <br />
+              Therefore, I had experineces in
+              <b className="home-about-body-green"> Java, React.js, Python and C#. </b>
+              Moreover, I received the <b className="home-about-body-green"> AWS SAA </b>
+              (Solution Architect Associate)
+              and <b className="home-about-body-green"> Azure AZ900 </b> certifications.
+              <br />
+              
+              <br />
+              With the passion for developing, I kept my curiosity alive and started to join several projects 
+              and worked at<b className="home-about-body-green"> Microsoft</b> as a Software Engineer Intern for a year. 
+              In this role, I joined a Hospital Information System project and used C#, Knockout.js 
+              to contribute several features that can help update hospital's system from COBOL into Web System 
+              and improve its efficiency. 
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Besides internship experience, I had a year of experience as a System Analyst at 
+              <b className="home-about-body-green"> IBM </b>
+              and participated in 3 banking projects which are all in an agile environment.
+              I applied technical knowledge and design thinking to analyze and translate the requirements 
+              into feasible solutions. In this role, I gained great problem-solving skills 
+              and was able to understand customers requirements.
+              
+
+
+
+              <br />
+              <br />
+              I'm not only passionate about software developing, but also love to do  <b className="home-about-body-green"> UI designing </b> 
+              and draw some illustrations. 
+              In several projects I joined, I was responsible for both UI designing and software developing.
+              I love to give products vitality and personality, so that the users can enjoy 
+              using it.
+              If you feel like having a chat, please feel free to contact me.
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,7 +78,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="green">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
