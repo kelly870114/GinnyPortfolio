@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/GinnyPortfolio/static/css/main.194299cc.css",
+    "main.js": "/GinnyPortfolio/static/js/main.2efd6e66.js",
+    "static/js/787.04d323f8.chunk.js": "/GinnyPortfolio/static/js/787.04d323f8.chunk.js",
+    "static/media/avatar.png": "/GinnyPortfolio/static/media/avatar.f6710ebee8690c606ba1.png",
+    "static/media/UCD_logo2.jpg": "/GinnyPortfolio/static/media/UCD_logo2.ee6560d269d226cb17dc.jpg",
+    "static/media/FR_Arch.png": "/GinnyPortfolio/static/media/FR_Arch.7d1679ff2af05b7f6302.png",
+    "static/media/hospital_ex2.png": "/GinnyPortfolio/static/media/hospital_ex2.3efe3e0403596fc6c65f.png",
+    "static/media/Ginny_CV_2022.pdf": "/GinnyPortfolio/static/media/Ginny_CV_2022.0ffa5a02f333966af4cd.pdf",
+    "static/media/home_illu.png": "/GinnyPortfolio/static/media/home_illu.0c410e41a63756c722d0.png",
+    "static/media/logo.png": "/GinnyPortfolio/static/media/logo.24c934fc35c7a9f09e2f.png",
+    "static/media/home_bg.png": "/GinnyPortfolio/static/media/home_bg.8f81dd386afdcf4c2d93.png",
+    "static/media/FJU_logo.jpg": "/GinnyPortfolio/static/media/FJU_logo.38a2fae3e9d6c48b6b5d.jpg",
+    "static/media/hospital_cover.jpeg": "/GinnyPortfolio/static/media/hospital_cover.545c5bcfd101bcb75280.jpeg",
+    "static/media/hospital_ex1.png": "/GinnyPortfolio/static/media/hospital_ex1.fd22b924bfa351edb91e.png",
+    "static/media/school_management.png": "/GinnyPortfolio/static/media/school_management.b26af5bd5f3b18121813.png",
+    "static/media/fju_icon.png": "/GinnyPortfolio/static/media/fju_icon.ae6f8c4505d83d35fdb0.png",
+    "static/media/student_website.png": "/GinnyPortfolio/static/media/student_website.cb97a4e5dac3c188df0c.png",
+    "static/media/teacher_website.png": "/GinnyPortfolio/static/media/teacher_website.00f8e33921d574a33834.png",
+    "static/media/Azure_900.jpg": "/GinnyPortfolio/static/media/Azure_900.e67679759347aa23ab65.jpg",
+    "static/media/AWS_SAA.jpg": "/GinnyPortfolio/static/media/AWS_SAA.45514d649ca40535e198.jpg",
+    "static/media/roll_call.png": "/GinnyPortfolio/static/media/roll_call.8a8b509df55c1297addf.png",
+    "static/media/micron_icon.png": "/GinnyPortfolio/static/media/micron_icon.359fd2479f16a9aa0852.png",
+    "static/media/ibm_icon.png": "/GinnyPortfolio/static/media/ibm_icon.820049e2d58a32a60c90.png",
+    "static/media/pre.svg": "/GinnyPortfolio/static/media/pre.2d10b300e03819ed07a2.svg",
+    "index.html": "/GinnyPortfolio/index.html",
+    "main.194299cc.css.map": "/GinnyPortfolio/static/css/main.194299cc.css.map",
+    "main.2efd6e66.js.map": "/GinnyPortfolio/static/js/main.2efd6e66.js.map",
+    "787.04d323f8.chunk.js.map": "/GinnyPortfolio/static/js/787.04d323f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.194299cc.css",
+    "static/js/main.2efd6e66.js"
+  ]
+}
