@@ -588,6 +588,9 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: #333333 !important;
 }
+.about-section-bg {
+  background-image: url(./Assets/bg_top.png);
+}
 
 .tech-icons {
   font-size: 4.5em !important;
