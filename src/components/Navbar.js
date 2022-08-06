@@ -25,8 +25,9 @@ function NavBar() {
     return (
         <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? 'sticky' : 'navbar'}>
             <Container>
-                <Navbar.Brand href="/" className="d-flex">
-                    <img src={logo} className="img-fluid logo" alt="brand" />
+                <Navbar.Brand href="/GinnyPortfolio" className="d-flex">
+                    <img src={logo} className="d-inline-block align-top" alt="brand" width="40px" height="40px" />
+                    &nbsp; Ginny Huang's Portfolio
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
