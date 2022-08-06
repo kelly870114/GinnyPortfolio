@@ -11,7 +11,7 @@ function About() {
     return (
         <Container fluid className="about-section">
             <Container>
-                <Container className="about-section-bg">
+                <Container>
                     <h1>
                         About <strong className="yellow">'ME'</strong>
                     </h1>
