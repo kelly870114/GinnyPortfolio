@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GinnyPortfolio/static/css/main.e18ff27c.css",
-    "main.js": "/GinnyPortfolio/static/js/main.e8451609.js",
+    "main.js": "/GinnyPortfolio/static/js/main.fe290743.js",
     "static/js/787.04d323f8.chunk.js": "/GinnyPortfolio/static/js/787.04d323f8.chunk.js",
     "static/media/avatar.png": "/GinnyPortfolio/static/media/avatar.f6710ebee8690c606ba1.png",
     "static/media/UCD_logo2.jpg": "/GinnyPortfolio/static/media/UCD_logo2.ee6560d269d226cb17dc.jpg",
@@ -9,7 +9,7 @@
     "static/media/hospital_ex2.png": "/GinnyPortfolio/static/media/hospital_ex2.3efe3e0403596fc6c65f.png",
     "static/media/Ginny_CV_2022.pdf": "/GinnyPortfolio/static/media/Ginny_CV_2022.0ffa5a02f333966af4cd.pdf",
     "static/media/home_illu.png": "/GinnyPortfolio/static/media/home_illu.0c410e41a63756c722d0.png",
-    "static/media/logo.png": "/GinnyPortfolio/static/media/logo.24c934fc35c7a9f09e2f.png",
+    "static/media/logo.png": "/GinnyPortfolio/static/media/logo.b4b5a2fb42a488828c29.png",
     "static/media/home_bg.png": "/GinnyPortfolio/static/media/home_bg.8f81dd386afdcf4c2d93.png",
     "static/media/FJU_logo.jpg": "/GinnyPortfolio/static/media/FJU_logo.38a2fae3e9d6c48b6b5d.jpg",
     "static/media/hospital_cover.jpeg": "/GinnyPortfolio/static/media/hospital_cover.545c5bcfd101bcb75280.jpeg",
@@ -27,11 +27,11 @@
     "static/media/pre.svg": "/GinnyPortfolio/static/media/pre.2d10b300e03819ed07a2.svg",
     "index.html": "/GinnyPortfolio/index.html",
     "main.e18ff27c.css.map": "/GinnyPortfolio/static/css/main.e18ff27c.css.map",
-    "main.e8451609.js.map": "/GinnyPortfolio/static/js/main.e8451609.js.map",
+    "main.fe290743.js.map": "/GinnyPortfolio/static/js/main.fe290743.js.map",
     "787.04d323f8.chunk.js.map": "/GinnyPortfolio/static/js/787.04d323f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e18ff27c.css",
-    "static/js/main.e8451609.js"
+    "static/js/main.fe290743.js"
   ]
 }
