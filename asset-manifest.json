@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GinnyPortfolio/static/css/main.194299cc.css",
-    "main.js": "/GinnyPortfolio/static/js/main.2efd6e66.js",
+    "main.css": "/GinnyPortfolio/static/css/main.e18ff27c.css",
+    "main.js": "/GinnyPortfolio/static/js/main.e8451609.js",
     "static/js/787.04d323f8.chunk.js": "/GinnyPortfolio/static/js/787.04d323f8.chunk.js",
     "static/media/avatar.png": "/GinnyPortfolio/static/media/avatar.f6710ebee8690c606ba1.png",
     "static/media/UCD_logo2.jpg": "/GinnyPortfolio/static/media/UCD_logo2.ee6560d269d226cb17dc.jpg",
@@ -13,6 +13,7 @@
     "static/media/home_bg.png": "/GinnyPortfolio/static/media/home_bg.8f81dd386afdcf4c2d93.png",
     "static/media/FJU_logo.jpg": "/GinnyPortfolio/static/media/FJU_logo.38a2fae3e9d6c48b6b5d.jpg",
     "static/media/hospital_cover.jpeg": "/GinnyPortfolio/static/media/hospital_cover.545c5bcfd101bcb75280.jpeg",
+    "static/media/bg_top.png": "/GinnyPortfolio/static/media/bg_top.aa553b95575733d4b08e.png",
     "static/media/hospital_ex1.png": "/GinnyPortfolio/static/media/hospital_ex1.fd22b924bfa351edb91e.png",
     "static/media/school_management.png": "/GinnyPortfolio/static/media/school_management.b26af5bd5f3b18121813.png",
     "static/media/fju_icon.png": "/GinnyPortfolio/static/media/fju_icon.ae6f8c4505d83d35fdb0.png",
@@ -25,12 +26,12 @@
     "static/media/ibm_icon.png": "/GinnyPortfolio/static/media/ibm_icon.820049e2d58a32a60c90.png",
     "static/media/pre.svg": "/GinnyPortfolio/static/media/pre.2d10b300e03819ed07a2.svg",
     "index.html": "/GinnyPortfolio/index.html",
-    "main.194299cc.css.map": "/GinnyPortfolio/static/css/main.194299cc.css.map",
-    "main.2efd6e66.js.map": "/GinnyPortfolio/static/js/main.2efd6e66.js.map",
+    "main.e18ff27c.css.map": "/GinnyPortfolio/static/css/main.e18ff27c.css.map",
+    "main.e8451609.js.map": "/GinnyPortfolio/static/js/main.e8451609.js.map",
     "787.04d323f8.chunk.js.map": "/GinnyPortfolio/static/js/787.04d323f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.194299cc.css",
-    "static/js/main.2efd6e66.js"
+    "static/css/main.e18ff27c.css",
+    "static/js/main.e8451609.js"
   ]
 }
