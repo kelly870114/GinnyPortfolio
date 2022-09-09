@@ -1,28 +1,35 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCardFR from "./ProjectCard_FR";
-import ProjectCardHIS from "./ProjectCard_HIS";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import ProjectCardFR from './ProjectCard_FR'
+import ProjectCardHIS from './ProjectCard_HIS'
+import ProjectCardIBM from './ProjectCard_IBM'
+import ProjectCardSmore from './ProjectCard_Smore'
 
 function Projects() {
-  return (
-    <Container fluid className="project-section">
-      <Container>
-        <h1 className="project-heading">
-          My <strong className="green">Projects </strong>
-        </h1>
-        <p className="yellow">
-          Here are a few projects I've worked before.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+    return (
+        <Container fluid className="project-section">
+            <Container>
+                <h1 className="project-heading">
+                    My <strong className="green">Projects </strong>
+                </h1>
+                <p className="yellow">Here are a few projects I've worked before.</p>
+                <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+                    <Col md={4} className="project-card">
+                        <ProjectCardFR />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCardHIS />
+                    </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCardFR/>
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCardHIS/>
-          </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCardIBM />
+                    </Col>
 
-          {/* <Col md={4} className="project-card">
+                    <Col md={4} className="project-card">
+                        <ProjectCardSmore />
+                    </Col>
+
+                    {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -31,11 +38,10 @@ function Projects() {
               link="https://github.com/soumyajit4419/Editor.io"
             />
           </Col> */}
-
-        </Row>
-      </Container>
-    </Container>
-  );
+                </Row>
+            </Container>
+        </Container>
+    )
 }
 
-export default Projects;
+export default Projects

@@ -23,7 +23,15 @@ function Timeline() {
                 <h5 className="vertical-timeline-element-subsub-left">July 2022</h5>
                 <p>
                     <ul style={{ textAlign: 'left' }}>
-                        <li>To be continue...</li>
+                        <li>
+                            Participated in projects with Global Quality IT team and collaborate with developers across
+                            different countries.
+                        </li>
+                        <li>
+                            Developed Restful API and Unit test for Global Change Process Platform using .Net (C#) and
+                            OOP, frontend using Angular, Typescript and RxJS library.
+                        </li>
+                        <li>Refactored legacy code from the Global Quality Web and enhanced maintainability by 60%.</li>
                     </ul>
                 </p>
             </VerticalTimelineElement>
