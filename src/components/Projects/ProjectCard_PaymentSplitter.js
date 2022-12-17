@@ -1,6 +1,8 @@
 import * as React from 'react'
+import ReactPlayer from 'react-player/youtube'
+import { LinkPreview } from '@dhaiwat10/react-link-preview';
 import { Card, CardActions, CardContent, CardMedia, Button, Typography, Box, Modal, Divider } from '@mui/material'
-import Prototype from '../../Assets/Smore_Prototype.png'
+import Prototype from '../../Assets/PS_Prototype.png'
 import Coding from '../../Assets/Smore_Coding.png'
 import { CCallout } from '@coreui/react'
 import '@coreui/coreui/dist/css/coreui.min.css'
@@ -18,6 +20,7 @@ const box_style = {
     p: 4,
     display: 'flex',
     overflowY: 'scroll',
+    overflowX: 'hidden', 
     flexDirection: 'column',
 }
 
@@ -41,7 +44,7 @@ export default function MediaCard() {
                     component="div"
                     style={{ fontSize: '20px', fontFamily: 'Raleway', fontWeight: 'bold', color: '#219653' }}
                 >
-                    (On-going Project) S’more iOS Application
+                    Payment Splitter for Cryptocurrency
                 </Typography>
                 <Typography
                     variant="body2"
@@ -74,12 +77,19 @@ export default function MediaCard() {
                             {/* Content */}
 
                             <Typography variant="h6">
-                                <strong>Intro - Smore iOS application</strong>
+                                <strong>Intro - Payment Splitter</strong>
                             </Typography>
                             <Divider />
+                            <div>
+                                <a href="https://vancelot7789.github.io/paymentsplitter/" target="_blank"> Payment Splitter Website </a>
+                            </div>
                             <Typography variant="body1">
-                                This is an application for lovers. They can check their anniversaries, each other's
-                                health conditions and so on.
+                            Due to the widespread use of cryptocurrencies, many people are building NFTs or DeFi 
+                            projects together, and they will need a safe and reliable way to split the crypto 
+                            profits. Hence, for this project, we aim to develop a crypto asset splitter application 
+                            for users to keep track of their shared crypto transactions. We are using Swift for our 
+                            frontend, Node.js for our backend, and Solidity for smart contracts, along with other 
+                            tools such as Truffle, Ganache-CLI, MongoDB.
                             </Typography>
                             <CCallout color="warning">
                                 <small>
@@ -89,12 +99,16 @@ export default function MediaCard() {
                             <img src={Prototype} style={{ maxHeight: '400px', position: 'relative' }} />
                             <CCallout color="success">
                                 <small>
-                                    <strong>💻 Coding (Swift)</strong>
+                                    <strong>💻 Coding</strong>
                                 </small>
                             </CCallout>
-                            <img src={Coding} style={{ maxHeight: '400px', position: 'relative' }} />
-
-                            <br />
+                            <div>
+                                <a href="https://github.com/kelly870114/Payment-Splitter" target="_blank"> Github Code </a>
+                            </div>
+                            <div className='player-wrapper'>
+                                <ReactPlayer className='react-player' url='https://youtu.be/w5EDqk2KyUs' />
+                                <br />
+                            </div>
                         </Box>
                     </Modal>
                 </div>

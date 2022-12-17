@@ -35,18 +35,15 @@ function Home2() {
                             <br />
                             <br />
                             With the passion for developing, I kept my curiosity alive and started to join several
-                            projects and worked at<b className="home-about-body-green"> Microsoft</b> as a Software
-                            Engineer Intern for a year. In this role, I joined a Hospital Information System project and
-                            used C#, Knockout.js to contribute several features that can help update hospital's system
-                            from COBOL into Web System and improve its efficiency.
+                            projects and worked at<b className="home-about-body-green"> Micron and Microsoft</b> as a
+                            <b className="home-about-body-green"> Full-Stack Software Engineer Intern</b>. I used C#,
+                            Angular.js, Typescript to contribute several features in the projects.
                             <br />
                             <br />
-                            Besides internship experience, I had a year of experience as a System Analyst at
+                            Besides internship experience, I had a year of experience as a Application Consultant at
                             <b className="home-about-body-green"> IBM </b>
-                            and participated in 3 banking projects which are all in an agile environment. I applied
-                            technical knowledge and design thinking to analyze and translate the requirements into
-                            feasible solutions. In this role, I gained great problem-solving skills and was able to
-                            understand customers requirements.
+                            , where I assisted businesses and organizations in developing applications. In this role, I
+                            gained great problem-solving skills and was able to understand customers requirements.
                             <br />
                             <br />
                             I'm not only passionate about software developing, but also love to do{' '}

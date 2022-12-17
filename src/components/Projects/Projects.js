@@ -4,6 +4,7 @@ import ProjectCardFR from './ProjectCard_FR'
 import ProjectCardHIS from './ProjectCard_HIS'
 import ProjectCardIBM from './ProjectCard_IBM'
 import ProjectCardSmore from './ProjectCard_Smore'
+import ProjectCardPS from './ProjectCard_PaymentSplitter'
 
 function Projects() {
     return (
@@ -29,6 +30,10 @@ function Projects() {
                         <ProjectCardSmore />
                     </Col>
 
+                    <Col md={4} className="project-card">
+                        <ProjectCardPS />
+                    </Col>
+                    
                     {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
